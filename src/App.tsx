@@ -83,17 +83,17 @@ function App() {
             <h1 className="title first text-center">LEGS</h1>
           </div>
           <div className="flex flex-row platforms justify-center items-center mb-4">
-            <a className='text-xl md:text-2xl' href="">PC</a>
+            <a className='text-xl md:text-2xl' href="/">PC</a>
             <div className='white-square md:m-1'></div>
-            <a className='text-xl md:text-2xl' href=''>SWITCH</a>
+            <a className='text-xl md:text-2xl' href='/'>SWITCH</a>
             <div className='white-square md:m-1'></div>
-            <a className='text-xl md:text-2xl' href=''>PS4</a>
+            <a className='text-xl md:text-2xl' href='/'>PS4</a>
             <div className='white-square md:m-1'></div>
-            <a className='text-xl md:text-2xl' href=''>IOS</a>
+            <a className='text-xl md:text-2xl' href='/'>IOS</a>
             <div className='white-square md:m-1'></div>
-            <a className='text-xl md:text-2xl' href="">ANDROID</a>
+            <a className='text-xl md:text-2xl' href="/">ANDROID</a>
             <div className='white-square md:m-1'></div>
-            <a className='text-xl md:text-2xl' href=''>OST</a>
+            <a className='text-xl md:text-2xl' href='/'>OST</a>
           </div>
           <div className='flex flex-row justify-center text-2xl red pixelatus mb-4'>
             <button onClick={() => onLangChange("en")}>EN</button>
