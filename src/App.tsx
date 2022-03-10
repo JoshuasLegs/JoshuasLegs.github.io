@@ -1,4 +1,4 @@
-import { useCallback, useEffect } from 'react';
+import { useCallback } from 'react';
 import joshua from './assets/joshua.gif';
 import hang from './assets/hang.mp4';
 import rock from './assets/rock.png';
