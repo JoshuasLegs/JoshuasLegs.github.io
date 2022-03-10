@@ -11,6 +11,11 @@ import gameplay2 from "./assets/gameplay2.mp4";
 import web from "./assets/web.mp4";
 import { useTranslation } from 'react-i18next';
 
+window.addEventListener("load", () => {
+  const body = document.querySelector("body");
+  if (body) body.scrollTo(0, document.body.scrollHeight)
+});
+
 function App() {
 
   const { t, i18n } = useTranslation();
@@ -19,18 +24,6 @@ function App() {
   const onLangChange = useCallback((l: string) => {
     i18n.changeLanguage(l);
   }, [i18n])
-
-  const resizeObserver = new ResizeObserver(() => {
-    const body = document.querySelector("body");
-    if (body)
-      setTimeout(() => body.scrollTo(0, document.body.scrollHeight), 200);
-  })
-
-
-  useEffect(() => {
-    resizeObserver.observe(document.body)
-    setTimeout(() => resizeObserver.unobserve(document.body), 3000)
-  })
 
 
   return (
