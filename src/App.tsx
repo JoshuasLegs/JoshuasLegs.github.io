@@ -20,11 +20,16 @@ function App() {
     i18n.changeLanguage(l);
   }, [i18n])
 
-  useEffect(() => {
+  const resizeObserver = new ResizeObserver(() => {
     const body = document.querySelector("body");
-    if (body) {
-      setTimeout(() => body.scrollTo(0, document.body.scrollHeight), 500);
-    }
+    if (body)
+      setTimeout(() => body.scrollTo(0, document.body.scrollHeight), 200);
+  })
+
+
+  useEffect(() => {
+    resizeObserver.observe(document.body)
+    setTimeout(() => resizeObserver.unobserve(document.body), 3000)
   })
 
 
