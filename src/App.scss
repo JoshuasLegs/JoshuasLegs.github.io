@@ -1,0 +1,102 @@
+@import "./colors.scss";
+
+.section {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.section1 {
+
+  .joshua-gif {
+    width: 100vw;
+    max-width: 450px;
+  }
+
+  .title {
+    color: $red-color;
+    font-family: Pixelbug;
+    text-shadow: 2px 2px #FF0000;
+    line-height: 80%;
+
+    &.first {
+      font-size: 8.5rem;
+    }
+
+    &.second {
+      font-size: 4.5rem;
+    }
+  }
+
+
+}
+
+.platforms {
+
+  font-family: Pixelatus;
+  color: white;
+
+  span {
+    text-align: center;
+  }
+
+}
+
+.section2 {
+
+  .web {
+    margin-bottom: -50px;
+    max-width: 350px;
+    margin: auto;
+    margin-right: 0;
+  }
+
+  .hang {
+    max-width: 350px;
+    margin-left: 5%;
+    margin-top: -50px;
+  }
+
+  .gif-text {
+    max-width: 300px;
+  }
+
+  .joshua-gif {
+    width: 100vw;
+    max-width: 700px;
+    margin-left: -25%;
+  }
+
+  .rock {
+    width: 100vw;
+    max-width: 450px;
+    aspect-ratio: 3;
+    pointer-events: none;
+    margin-bottom: -5px;
+  }
+}
+
+.text-width {
+  max-width: 600px;
+}
+
+.platforms {
+  a {
+    margin-left: 4px;
+    line-height: 0%;
+  }
+
+  span {
+    margin-top: 2px;
+  }
+}
+
+.contain {
+  object-fit: contain;
+}
+
+.white-square {
+  height: 5px;
+  width: 5px;
+  background-color: white;
+  margin-bottom: 2px;
+}

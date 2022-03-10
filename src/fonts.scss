@@ -1,0 +1,27 @@
+@import "./colors.scss";
+
+@font-face {
+    font-family: Pixelbug;
+    src: url("assets/pixelbug.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Pixelatus;
+    src: url("assets/pixelatus.ttf") format("opentype");
+}
+
+.pixelbug {
+    font-family: Pixelbug;
+}
+
+.pixelatus {
+    font-family: Pixelatus;
+}
+
+.red {
+    color: $red-color;
+}
+
+.white {
+    color: $white;
+}

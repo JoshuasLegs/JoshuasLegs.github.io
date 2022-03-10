@@ -1,0 +1,11 @@
+@import "./colors.scss";
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $red-color;
+    border: solid 3px black;
+}
