@@ -57,7 +57,8 @@ function App() {
           </div>
         </div>
 
-        <div className='mt-5 text-center pixelatus text-2xl md:text-4xl red m-5 mt-24 flex justify-center'> <span className='text-width'>{t("gameDescription")}</span></div>
+        <div className='mt-5 text-center pixelatus text-2xl md:text-4xl white m-5 mt-24 flex justify-center'> <span className='text-width'>{t("gameDescription2")}</span></div>
+        <div className='mt-5 text-center pixelatus text-2xl md:text-4xl red m-5 flex justify-center'> <span className='text-width'>{t("gameDescription")}</span></div>
         <div className="flex flex-col w-full justify-center content-end">
           <div className='flex flex-row justify-center items-end'>
             <img src={rock} className="rock joshua-rock contain" alt="logo" />
