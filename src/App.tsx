@@ -34,22 +34,22 @@ function App() {
           <div><a className='text-base md:text-3xl white ml-5 pixelatus' href="https://twitter.com/trespetitlegume">@trespetitlegume</a>
           </div>
         </div>
-        <div className='m-5 flex justify-center pixelatus text-lg white'><p className="text-width text-center">{t("styleDescription")}</p></div>
+        <div className='m-5 flex justify-center pixelatus text-lg white'><p className="text-width text-center uppercase">{t("styleDescription")}</p></div>
         <div className='mt-24 flex flex-row content-center justify-center'>
           {paths.map((p, i) => <GameplayItem key={i} img={p[0]} video={p[1]}></GameplayItem>)}
         </div>
-        <div className='mt-5 text-center pixelatus text-2xl md:text-4xl red m-5 mt-12 flex justify-center text-center'> <span className='text-width'>{t("gameplayTitle")}</span></div>
+        <div className='mt-5 text-center pixelatus text-2xl md:text-4xl red m-5 mt-12 flex justify-center text-center'> <span className='text-width uppercase'>{t("gameplayTitle")}</span></div>
         <div className="flex flex-row items-center justify-center">
           <div className='half'>
             <video className='web w-full' muted autoPlay width={720} height={1280} loop playsInline controls={false} preload='auto'>
               <source src={web} type="video/mp4" />
             </video>
           </div>
-          <div className='text-left flex pixelatus text-2xl md:text-4xl red mr-10 half z-10'><span className='gif-text'>{t("webDescription")}</span></div>
+          <div className='text-left flex pixelatus text-2xl md:text-4xl red mr-10 half z-10'><span className='gif-text uppercase'>{t("webDescription")}</span></div>
         </div>
 
         <div className="flex flex-row items-center justify-center">
-          <div className='text-right flex pixelatus text-2xl md:text-4xl red ml-10 z-10 half justify-end'><span className='gif-text'>{t("gripDescription")}</span></div>
+          <div className='text-right flex pixelatus text-2xl md:text-4xl red ml-10 z-10 half justify-end'><span className='gif-text uppercase'>{t("gripDescription")}</span></div>
           <div className='half'>
             <video className='hang w-full' muted autoPlay width={720} height={1280} loop playsInline controls={false} preload='auto'>
               <source src={hang} type="video/mp4" />
@@ -57,8 +57,8 @@ function App() {
           </div>
         </div>
 
-        <div className='mt-5 text-center pixelatus text-2xl md:text-4xl white m-5 mt-24 flex justify-center'> <span className='text-width'>{t("gameDescription2")}</span></div>
-        <div className='mt-5 text-center pixelatus text-2xl md:text-4xl red m-5 flex justify-center'> <span className='text-width'>{t("gameDescription")}</span></div>
+        <div className='mt-5 text-center pixelatus text-2xl md:text-4xl white m-5 mt-24 flex justify-center'> <span className='text-width uppercase'>{t("gameDescription2")}</span></div>
+        <div className='mt-5 text-center pixelatus text-2xl md:text-4xl red m-5 flex justify-center'> <span className='text-width uppercase'>{t("gameDescription")}</span></div>
         <div className="flex flex-col w-full justify-center content-end">
           <div className='flex flex-row justify-center items-end'>
             <img src={rock} className="rock joshua-rock contain" alt="logo" />
@@ -69,7 +69,7 @@ function App() {
       <div className="section flex flex-col content-center justify-between section1">
         <div className="flex flex-col w-full content-center justify-center">
           <div className='flex flex-row justify-center items-start'><img src={joshua} className="joshua-gif joshua-rock contain" alt="logo" /></div>
-          <div><p className="text-center pixelatus text-lg red">{t("SCROLL UP TO CLIMB")}</p></div>
+          <div><p className="text-center pixelatus text-3xl white uppercase">{t("SCROLL UP TO CLIMB")}</p></div>
         </div>
         <div className="flex flex-col content-center justify-center">
           <div className='mb-2'>
