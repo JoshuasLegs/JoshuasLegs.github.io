@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.dec3295f.css",
-    "main.js": "/static/js/main.2c7fab8b.js",
+    "main.css": "/static/css/main.d4dcc52e.css",
+    "main.js": "/static/js/main.a80fd14d.js",
     "static/js/787.b08e0ed0.chunk.js": "/static/js/787.b08e0ed0.chunk.js",
+    "static/media/gameplay3.mp4": "/static/media/gameplay3.51b28c7dc1ccf09d2dc1.mp4",
     "static/media/gameplay1.mp4": "/static/media/gameplay1.1cd627a7e07dd79e70b5.mp4",
     "static/media/gameplay2.mp4": "/static/media/gameplay2.75035b4918b788544a55.mp4",
     "static/media/web.mp4": "/static/media/web.a4371b4c78399151f9ec.mp4",
     "static/media/hang.mp4": "/static/media/hang.588805ece56da7001adc.mp4",
     "static/media/joshua.gif": "/static/media/joshua.8954dea3f2bfc68262ab.gif",
     "static/media/pixelatus.ttf": "/static/media/pixelatus.eb91f4d682ad968b5a7a.ttf",
-    "static/media/gameplay2.png": "/static/media/gameplay2.730b7b54c0ba4e253dd4.png",
-    "static/media/gameplay1.png": "/static/media/gameplay1.2026240b5fe0b9b39812.png",
+    "static/media/gameplay2.png": "/static/media/gameplay2.353bd891974585fb30a8.png",
+    "static/media/gameplay3.png": "/static/media/gameplay3.9fd6f6d5bc2d8011c8ab.png",
+    "static/media/gameplay1.png": "/static/media/gameplay1.65aa0c55935e00e65083.png",
     "static/media/pixelbug.otf": "/static/media/pixelbug.4022a26d8db5bac5c4e6.otf",
     "static/media/rock.png": "/static/media/rock.9f0d93d412da716b50cf.png",
     "index.html": "/index.html",
-    "main.dec3295f.css.map": "/static/css/main.dec3295f.css.map",
-    "main.2c7fab8b.js.map": "/static/js/main.2c7fab8b.js.map",
+    "main.d4dcc52e.css.map": "/static/css/main.d4dcc52e.css.map",
+    "main.a80fd14d.js.map": "/static/js/main.a80fd14d.js.map",
     "787.b08e0ed0.chunk.js.map": "/static/js/787.b08e0ed0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dec3295f.css",
-    "static/js/main.2c7fab8b.js"
+    "static/css/main.d4dcc52e.css",
+    "static/js/main.a80fd14d.js"
   ]
 }
