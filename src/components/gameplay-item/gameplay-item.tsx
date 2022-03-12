@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { useOnLoad } from "../../hooks/onload";
 import "./gameplay-item.scss";
 
@@ -25,11 +25,11 @@ export function GameplayItem({ img, video, className }: IProps) {
             });
         }, {});
         //wait for page to scroll down
-        setTimeout(() => ref.current ? observer.observe(ref.current) : null, 100);
+        setTimeout(() => ref.current ? observer.observe(ref.current) : null, 700);
     })
 
     return (
-        <video ref={ref as any} playsInline loop className={'gameplay ' + className} muted poster={img} width={1280} height={720} controls preload="metadata">
+        <video ref={ref as any} playsInline loop className={'gameplay ' + className} muted poster={img} width={1280} height={720} controls preload="none">
             <source src={video} />
         </video>
     )
