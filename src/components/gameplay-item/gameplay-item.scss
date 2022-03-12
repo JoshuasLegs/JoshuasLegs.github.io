@@ -1,37 +1,11 @@
 @import "../../colors.scss";
 
-.gameplay-item-container {
-    width: 70vw;
-    max-width: 150px;
+.gameplay {
+    width: 90%;
     border: 3px solid $red-color;
-    aspect-ratio: 1;
     transition: border ease 0.2s;
-
+  
     &:hover {
-        border: 3px solid $white;
+      border: 3px solid $white;
     }
-}
-
-.ReactModalPortal>* {
-    // When the modal is closed, overlay div has no css class
-    // This selector should be overridden by the `&--after-open` class below
-    opacity: 0;
-    z-index: 9999;
-}
-
-.ReactModal__Overlay {
-    transition: opacity 200ms ease-in-out;
-    background-color: rgba(0, 0, 0, 0.7) !important;
-
-    &--after-open {
-        opacity: 1;
-    }
-
-    &--before-close {
-        opacity: 0;
-    }
-
-    .ReactModal__Content{
-        border: 3px solid $white !important;
-    }
-}
+  }

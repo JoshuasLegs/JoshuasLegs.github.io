@@ -1,4 +1,10 @@
 @import "./colors.scss";
+@import "./variables.scss";
+
+
+.App {
+  margin-right: -$scrollbar-width;
+}
 
 .section {
   min-height: 100%;

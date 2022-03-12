@@ -1,7 +1,8 @@
 @import "./colors.scss";
+@import "./variables.scss";
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: $scrollbar-width;
     background-color: black;
 }
 
