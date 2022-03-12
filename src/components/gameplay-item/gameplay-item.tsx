@@ -21,7 +21,6 @@ export function GameplayItem({ img, video, className }: IProps) {
                         ref.current.pause()
                     } else {
                         ref.current.play();
-                        console.log("col");
                     }
             });
         }, {});
