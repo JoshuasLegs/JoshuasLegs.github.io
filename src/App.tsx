@@ -13,11 +13,9 @@ import web from "./assets/web.mp4";
 import { useTranslation } from 'react-i18next';
 import { Fade } from "react-awesome-reveal";
 import { GameplayItem } from './components/gameplay-item/gameplay-item';
+import { useOnLoad } from './hooks/onload';
 
-window.addEventListener("load", () => {
-  const body = document.querySelector("body");
-  if (body) body.scrollTo(0, document.body.scrollHeight)
-});
+
 
 function App() {
 
@@ -28,6 +26,10 @@ function App() {
     i18n.changeLanguage(l);
   }, [i18n])
 
+  useOnLoad(() => {
+    const body = document.querySelector("body");
+    if (body) body.scrollTo(0, document.body.scrollHeight)
+  })
 
   return (
     <div className="App h-full" >
@@ -42,7 +44,7 @@ function App() {
           <p className="text-width text-center uppercase">{t("styleDescription")}</p>
         </Fade>
         <div className='mt-24 flex flex-col content-center items-center'>
-          {paths.map((p, i) => <GameplayItem className='text-width mb-10' img={p[0]} video={p[1]}></GameplayItem>)}
+          {paths.map((p, i) => <GameplayItem key={p[0]} className='text-width mb-10' img={p[0]} video={p[1]}></GameplayItem>)}
         </div>
         <Fade delay={100} duration={1500} className='text-center pixelatus text-2xl md:text-4xl red-light m-5 mt-0 flex justify-center text-center'>
           <span className='text-width uppercase'>{t("gameplayTitle")}</span>
