@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { useOnLoad } from "../../hooks/onload";
 import "./gameplay-item.scss";
 
