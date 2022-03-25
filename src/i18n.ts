@@ -9,7 +9,7 @@ const resources = {
             "gameplayTitle": "REWIRE YOUR BRAIN TO CRAWL, CLIMB AND JUMP LIKE A BIPED",
             "webDescription": "USE WEBS TO SWING OR PREVENT FREE FALL",
             "gripDescription": "GRIP ROCKS AND PLATFORMS MIDAIR",
-            "gameDescription": "A strange game about an arachnid hoping to find his long lost prosthetic legs collection",
+            "gameDescription": "A strange game about an arachnid on a quest to find his long lost prosthetic legs",
             "gameDescription2": "VENTURE IN A WORLD THAT WILL ONLY REVEAL ITS SECRETS TO THE TRUE HARDENED CLIMBERS",
             "styleDescription": "A NEW GENERATION OF METROIDVANIA THAT WILL MAKE YOUR THUMBS GO RAW"
         }
@@ -21,7 +21,7 @@ const resources = {
             "gameplayTitle": "RECONFIGUREZ VOTRE CERVEAU POUR RAMPER, GRIMPER ET SAUTER COMME UN BIPED",
             "webDescription": "UTILISEZ DES TOILES D'ARAIGNÉES POUR VOUS BALANCER OU ÉVITER LA CHUTE LIBRE",
             "gripDescription": "AGRIPPEZ LES ROCHES ET LES PLATFORMES EN PLEIN VOL",
-            "gameDescription": "Un jeu étrange à propos d'un arachnide qui espère retrouver sa collection de pattes prosthétiques depuis longtemps perdues",
+            "gameDescription": "Un jeu étrange à propos d'un arachnide à la recherche de ses prothèses de pattes perdues depuis longtemps",
             "gameDescription2": "AVENTUREZ-VOUS DANS UN MONDE QUI RÉVÈLERA SES SECRETS SEULEMENT AUX VRAIS GRIMPEURS ENDURCIS",
             "styleDescription": "UNE NOUVELLE GÉNÉRATION DE METROIDVANIA QUI RENDRA LA CHAIR DE VOS POUCES À VIF",
         }
