@@ -1,4 +1,4 @@
-import { useCallback } from 'react';
+import { useCallback, useState } from 'react';
 import joshua from './assets/joshua.gif';
 import hang from './assets/hang.mp4';
 import rock from './assets/rock.png';
@@ -14,6 +14,7 @@ import { useTranslation } from 'react-i18next';
 import { Fade } from "react-awesome-reveal";
 import { GameplayItem } from './components/gameplay-item/gameplay-item';
 import { useOnLoad } from './hooks/onload';
+import { LoadingScreen } from './components/loading-screen/loading-screen';
 
 
 
@@ -22,17 +23,23 @@ function App() {
   const { t, i18n } = useTranslation();
   const paths = [[gameplay3png, gameplay3], [gameplay2png, gameplay2], [gameplay1png, gameplay1]]
 
+  const [loading, setLoading] = useState(true);
+
   const onLangChange = useCallback((l: string) => {
     i18n.changeLanguage(l);
   }, [i18n])
 
   useOnLoad(() => {
     const body = document.querySelector("body");
-    if (body) body.scrollTo(0, document.body.scrollHeight)
+    if (body) {
+      body.scrollTo(0, document.body.scrollHeight)
+      setLoading(false);
+    }
   })
 
   return (
     <div className="App h-full" >
+      {loading && <LoadingScreen></LoadingScreen>}
       <div className="section flex-col flex section2">
         <div className="flex flex-row justify-center items-center mt-5">
           <span className='text-base md:text-3xl red-light pixelatus' >{t("A GAME BY:")}</span>
