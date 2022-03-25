@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dfac9f91.css",
-    "main.js": "/static/js/main.5f605a7c.js",
+    "main.css": "/static/css/main.96272c7b.css",
+    "main.js": "/static/js/main.0d62113c.js",
     "static/js/787.b08e0ed0.chunk.js": "/static/js/787.b08e0ed0.chunk.js",
     "static/media/gameplay3.mp4": "/static/media/gameplay3.51b28c7dc1ccf09d2dc1.mp4",
     "static/media/gameplay1.mp4": "/static/media/gameplay1.1cd627a7e07dd79e70b5.mp4",
@@ -16,12 +16,12 @@
     "static/media/pixelbug.otf": "/static/media/pixelbug.4022a26d8db5bac5c4e6.otf",
     "static/media/rock.png": "/static/media/rock.9f0d93d412da716b50cf.png",
     "index.html": "/index.html",
-    "main.dfac9f91.css.map": "/static/css/main.dfac9f91.css.map",
-    "main.5f605a7c.js.map": "/static/js/main.5f605a7c.js.map",
+    "main.96272c7b.css.map": "/static/css/main.96272c7b.css.map",
+    "main.0d62113c.js.map": "/static/js/main.0d62113c.js.map",
     "787.b08e0ed0.chunk.js.map": "/static/js/787.b08e0ed0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfac9f91.css",
-    "static/js/main.5f605a7c.js"
+    "static/css/main.96272c7b.css",
+    "static/js/main.0d62113c.js"
   ]
 }
