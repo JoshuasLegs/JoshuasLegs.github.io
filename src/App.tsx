@@ -32,8 +32,8 @@ function App() {
   useOnLoad(() => {
     const body = document.querySelector("body");
     if (body) {
-      body.scrollTo(0, document.body.scrollHeight)
-      setLoading(false);
+      body.scrollTo(0, document.body.scrollHeight);
+      setTimeout(() => setLoading(false), 300);
     }
   })
 
