@@ -112,7 +112,7 @@ function App() {
             <div className='white-square md:m-1'></div>
             <a className='text-xl md:text-2xl' href="/">ANDROID</a>
             <div className='white-square md:m-1'></div>
-            <a className='text-xl md:text-2xl' href='/'>OST</a>
+            <a className='text-xl md:text-2xl' href='https://danielletremblay.bandcamp.com'>OST</a>
           </div>
           <div className='flex flex-row justify-center text-2xl red-light pixelatus mb-4'>
             <button onClick={() => onLangChange("en")}>EN</button>
