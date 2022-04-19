@@ -10,14 +10,22 @@ import screenshot3 from "../../assets/press/Screenshots/s3.png";
 import screenshot4 from "../../assets/press/Screenshots/s4.png";
 import screenshot5 from "../../assets/press/Screenshots/s5.png";
 import screenshot6 from "../../assets/press/Screenshots/s6.png";
+import video1 from "../../assets/gameplay1.mp4";
+import video1thumbnail from "../../assets/gameplay1.png";
+import video2 from "../../assets/gameplay2.mp4";
+import video2thumbnail from "../../assets/gameplay2.png";
+import video3 from "../../assets/gameplay3.mp4";
+import video3thumbnail from "../../assets/gameplay3.png";
 import jhang from "../../assets/joshua.gif";
 import { useTranslation } from "react-i18next";
 import { useCallback } from "react";
 import { Link } from "react-router-dom";
+import { GameplayItem } from "../gameplay-item/gameplay-item";
 
 export function Press() {
 
     const { t, i18n } = useTranslation();
+    const paths = [[video1thumbnail, video1], [video2thumbnail, video2], [video3thumbnail, video3]]
 
     const onLangChange = useCallback((l: string) => {
         i18n.changeLanguage(l);
@@ -66,7 +74,7 @@ export function Press() {
                 </div>
 
                 <div className="flex flex-col w-full mt-12">
-                    <h2 className="text-4xl">{t("logos")}</h2>
+                    <h2 className="text-4xl mb-2">{t("logos")}</h2>
                     <div className="flex flex-row mt-2">
                         <div><img src={llogo} alt="logo"></img></div>
                         <div className="ml-2 flex flex-col grow-0 items-end justify-end"><div><img src={hbanner} alt="horizontal banner"></img></div></div>
@@ -80,7 +88,7 @@ export function Press() {
                 </div>
 
                 <div className="flex flex-col w-full mt-12">
-                    <h2 className="text-4xl">{t("images")}</h2>
+                    <h2 className="text-4xl mb-2">{t("images")}</h2>
                     <div className="flex-col">
                         <img className="mt-2" src={lhero} alt="hero"></img>
                     </div>
@@ -99,10 +107,15 @@ export function Press() {
                 </div>
 
                 <div className="flex flex-col w-full mt-12">
-                    <h2 className="text-4xl">{t("gifs")}</h2>
+                    <h2 className="text-4xl mb-2">{t("gifs")}</h2>
                     <div className="flex-col">
                         <img className="mt-2" src={jhang} alt="joshua hanging"></img>
                     </div>
+                </div>
+
+                <div className="flex flex-col w-full mt-12">
+                    <h2 className="text-4xl mb-4">{t("videos")}</h2>
+                    {paths.map((p, i) => <GameplayItem key={p[0]} className='mb-2 w-full' img={p[0]} video={p[1]}></GameplayItem>)}
                 </div>
 
             </div>
