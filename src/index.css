@@ -28,3 +28,7 @@ body {
   flex-shrink: 0;
   flex-basis: 50%;
 }
+
+ul{
+  list-style: square;
+}
