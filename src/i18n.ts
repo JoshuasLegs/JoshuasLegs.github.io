@@ -29,7 +29,12 @@ const resources = {
             "logos": "Logos and icons",
             "images": "Images",
             "videos": "Videos",
-            "gifs": "GIFs"
+            "gifs": "GIFs",
+            "articles": "Articles",
+            "credits": "Credits",
+            "credits1": "Game by Francis Côté-Tremblay",
+            "credits2": "Music by Danielle Tremblay",
+            "contact": "Contact"
         }
     },
     fr: {
@@ -59,7 +64,12 @@ const resources = {
             "logos": "Logos et icones",
             "images": "Images",
             "videos": "Vidéos",
-            "gifs": "GIFs"
+            "gifs": "GIFs",
+            "articles": "Articles",
+            "credits": "Crédits",
+            "credits1": "Jeu par Francis Côté-Tremblay",
+            "credits2": "Musique par Danielle Tremblay",
+            "contact": "Contact"
         }
     }
 };

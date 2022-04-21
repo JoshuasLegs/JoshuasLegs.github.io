@@ -122,6 +122,24 @@ export function Press() {
                     {paths.map((p, i) => <GameplayItem key={p[0]} className='mt-2 w-full' img={p[0]} video={p[1]}></GameplayItem>)}
                 </div>
 
+                <div className="flex flex-col w-full mt-12">
+                    <h2 className="text-4xl mb-2">{t("articles")}</h2>
+                    <p className="text-2xl mt-4 underline"><a href="https://medium.com/@petitlegume/the-quirks-of-creating-an-indie-game-with-a-one-man-army-and-how-its-possible-2eca32f5fd23">The quirks of creating an indie game with a one man army (and how it’s possible)</a></p>
+                </div>
+                
+                <div className="flex flex-col w-full mt-12">
+                    <h2 className="text-4xl mb-2">{t("credits")}</h2>
+                    <p className="text-2xl mt-4">{t("credits1")}</p>
+                    <p className="text-2xl mt-4">{t("credits2")}</p>
+                </div>
+
+                <div className="flex flex-col w-full mt-12">
+                    <h2 className="text-4xl mb-2">{t("contact")}</h2>
+                    <p className="text-2xl mt-4">Twitter: <a className="underline" href="https://twitter.com/trespetitlegume">https://twitter.com/trespetitlegume</a></p>
+                    <p className="text-2xl mt-4">Linkedin: <a className="underline" href="https://www.linkedin.com/in/francis-c%C3%B4t%C3%A9-tremblay-1252b71a7/">https://www.linkedin.com/in/francis-côté-tremblay-tremblay-1252b71a7/</a></p>
+                    <p className="text-2xl mt-4">Email: <a className="underline" href="mailto:joshuaslegs@protonmail.com">joshuaslegs@protonmail.com</a></p>
+                </div>
+
             </div>
         </div>
     )
