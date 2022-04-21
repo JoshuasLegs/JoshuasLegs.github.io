@@ -4,7 +4,7 @@
 
 .App {
   width: 100vw;
-  left:0;
+  left: 0;
 }
 
 .section {
@@ -40,12 +40,15 @@
 .platforms {
 
   font-family: Pixelatus;
-  color: white;
 
   span {
     text-align: center;
   }
 
+  .disabled {
+    color: rgb(95, 93, 93);
+    pointer-events: none;
+  }
 }
 
 .section2 {

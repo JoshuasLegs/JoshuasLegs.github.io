@@ -93,16 +93,19 @@ export function Home() {
                         <h1 className="title second text-center">JOSHUAS</h1>
                         <h1 className="title first text-center">LEGS</h1>
                     </div>
-                    <div className="flex flex-row platforms justify-center items-center mb-4">
-                        <a className='text-xl md:text-2xl' href="/">PC</a>
+                    <div className='mb-2'>
+                        <p className="text-center pixelatus text-xl md:text-2xl white uppercase">{t("comingsoon")}</p>
+                    </div>
+                    <div className="flex flex-row platforms justify-center items-center mb-4 white">
+                        <a className='text-xl md:text-2xl disabled' href="/">PC</a>
                         <div className='white-square md:m-1'></div>
-                        <a className='text-xl md:text-2xl' href='/'>SWITCH</a>
+                        <a className='text-xl md:text-2xl disabled' href='/'>SWITCH</a>
                         <div className='white-square md:m-1'></div>
-                        <a className='text-xl md:text-2xl' href='/'>PS4</a>
+                        <a className='text-xl md:text-2xl disabled' href='/'>PS4</a>
+                        <div className='white-square md:m-1 disabled'></div>
+                        <a className='text-xl md:text-2xl disabled' href='/'>IOS</a>
                         <div className='white-square md:m-1'></div>
-                        <a className='text-xl md:text-2xl' href='/'>IOS</a>
-                        <div className='white-square md:m-1'></div>
-                        <a className='text-xl md:text-2xl' href="/">ANDROID</a>
+                        <a className='text-xl md:text-2xl disabled' href="/">ANDROID</a>
                         <div className='white-square md:m-1'></div>
                         <a className='text-xl md:text-2xl' href='https://danielletremblay.bandcamp.com'>OST</a>
                     </div>

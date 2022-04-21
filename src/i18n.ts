@@ -6,6 +6,7 @@ const resources = {
         translation: {
             "A GAME BY:": "A game by:",
             "SCROLL UP TO CLIMB": "SCROLL UP TO CLIMB",
+            "comingsoon": "Available on June 15th 2022",
             "gameplayTitle": "REWIRE YOUR BRAIN TO CRAWL, CLIMB AND JUMP LIKE A BIPED",
             "webDescription": "USE WEBS TO SWING OR PREVENT FREE FALL",
             "gripDescription": "GRIP ROCKS AND PLATFORMS MIDAIR",
@@ -41,6 +42,7 @@ const resources = {
         translation: {
             "A GAME BY:": "Un jeu par:",
             "SCROLL UP TO CLIMB": "DÉFILEZ VERS LE HAUT POUR GRIMPER",
+            "comingsoon": "Disponible le 15 Juin 2022",
             "gameplayTitle": "RECONFIGUREZ VOTRE CERVEAU POUR RAMPER, GRIMPER ET SAUTER COMME UN BIPED",
             "webDescription": "UTILISEZ DES TOILES D'ARAIGNÉES POUR VOUS BALANCER OU ÉVITER LA CHUTE LIBRE",
             "gripDescription": "AGRIPPEZ LES ROCHES ET LES PLATFORMES EN PLEIN VOL",
