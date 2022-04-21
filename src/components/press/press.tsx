@@ -10,6 +10,7 @@ import screenshot3 from "../../assets/press/Screenshots/s3.png";
 import screenshot4 from "../../assets/press/Screenshots/s4.png";
 import screenshot5 from "../../assets/press/Screenshots/s5.png";
 import screenshot6 from "../../assets/press/Screenshots/s6.png";
+import trailer from "../../assets/press/trailer.mp4";
 import video1 from "../../assets/gameplay1.mp4";
 import video1thumbnail from "../../assets/gameplay1.png";
 import video2 from "../../assets/gameplay2.mp4";
@@ -115,7 +116,10 @@ export function Press() {
 
                 <div className="flex flex-col w-full mt-12">
                     <h2 className="text-4xl mb-4">{t("videos")}</h2>
-                    {paths.map((p, i) => <GameplayItem key={p[0]} className='mb-2 w-full' img={p[0]} video={p[1]}></GameplayItem>)}
+                    <video poster={title} className='gameplay mt-2' width={1280} height={720} controls preload="none">
+                        <source src={trailer} />
+                    </video>
+                    {paths.map((p, i) => <GameplayItem key={p[0]} className='mt-2 w-full' img={p[0]} video={p[1]}></GameplayItem>)}
                 </div>
 
             </div>
