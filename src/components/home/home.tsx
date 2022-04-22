@@ -16,6 +16,7 @@ import { useTranslation } from "react-i18next";
 import { Fade } from "react-awesome-reveal";
 import { GameplayItem } from "../gameplay-item/gameplay-item";
 import { Link } from "react-router-dom";
+import { EmailForm } from "../email-form/email-form";
 
 
 export function Home() {
@@ -32,6 +33,9 @@ export function Home() {
             <div className="section flex-col flex section2">
                 <div className="text-center white pixelatus text-base md:text-3xl mt-5 underline">
                     <Link to="/press">{t("presskit")}</Link>
+                    <div className="flex flex-row justify-center items-center mt-4">
+                        <EmailForm />
+                    </div>
                 </div>
                 <div className="flex flex-row justify-center items-center mt-3">
                     <span className='text-base md:text-3xl red-light pixelatus' >{t("A GAME BY:")}</span>
