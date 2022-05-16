@@ -43,7 +43,7 @@ export function Home() {
                     <div className='white-square md:m-1'></div>
                     <a className='text-xl md:text-2xl' href='https://t.me/JoshuasLegsGame'>TELEGRAM</a>
                     <div className='white-square md:m-1'></div>
-                    <a className='text-xl md:text-2xl disabled' href='https://www.reddit.com/r/JoshuasLegsGame/'>REDDIT</a>
+                    <a className='text-xl md:text-2xl' href='https://www.reddit.com/r/joshuaslegs_game/'>REDDIT</a>
                 </div>
                 <div className="flex flex-row justify-center items-center mt-3">
                     <span className='text-base md:text-3xl red-light pixelatus' >{t("A GAME BY:")}</span>
