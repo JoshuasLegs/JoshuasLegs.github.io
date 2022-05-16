@@ -109,7 +109,7 @@ export function Home() {
                         <p className="text-center pixelatus text-xl md:text-2xl white uppercase">{t("comingsoon")}</p>
                     </div>
                     <div className="flex flex-row platforms justify-center items-center mb-4 white">
-                        <a className='text-xl md:text-2xl disabled' href="/">PC</a>
+                        <a className='text-xl md:text-2xl' href="https://store.steampowered.com/app/1934330/Joshuas_Legs">PC</a>
                         <div className='white-square md:m-1'></div>
                         <a className='text-xl md:text-2xl disabled' href='/'>SWITCH</a>
                         <div className='white-square md:m-1'></div>
