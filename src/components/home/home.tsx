@@ -38,6 +38,11 @@ export function Home() {
                         <EmailForm />
                     </div>
                 </div>
+                <div className='flex flex-col content-center items-center'>
+                    <div className="text-center text-width w-full px-4">
+                        <iframe frameBorder="0" src="https://itch.io/embed/1547638" width="100%" height="167"><a href="https://petitlegume.itch.io/joshuas-legs">Joshua's Legs by PetitLegume</a></iframe>
+                    </div>
+                </div>
                 <div className="flex flex-row platforms justify-center items-center mb-4 mt-12 white">
                     <a className='text-xl md:text-2xl' href="https://discord.gg/aDBtejtEjS">DISCORD</a>
                     <div className='white-square md:m-1'></div>
