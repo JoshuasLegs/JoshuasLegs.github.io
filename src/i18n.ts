@@ -13,7 +13,7 @@ const resources = {
             "gameDescription": "A strange game about an arachnid on a quest to find his long lost prosthetic legs",
             "gameDescription2": "VENTURE IN A WORLD THAT WILL ONLY REVEAL ITS SECRETS TO THE TRUE HARDENED CLIMBERS",
             "styleDescription": "A NEW GENERATION OF METROIDVANIA THAT WILL MAKE YOUR THUMBS GO RAW",
-            "presskit": "Press kit",
+            "presskit": "PRESS KIT",
 
             "descriptionTitle": "Description",
             "description1": "Joshua's Legs is a strange game about an arachnid hoping to find his long lost prosthetic legs collection. Venture in a world that will only reveal its secrets to the true hardened climbers. Follow the marked path or explore the lair to find all of Joshua’s prostheses. Those will allow him to jump, grip and shoot webs to swing or prevent free fall.",
@@ -49,7 +49,7 @@ const resources = {
             "gameDescription": "Un jeu étrange à propos d'un arachnide à la recherche de ses prothèses de pattes perdues depuis longtemps",
             "gameDescription2": "AVENTUREZ-VOUS DANS UN MONDE QUI RÉVÈLERA SES SECRETS SEULEMENT AUX VRAIS GRIMPEURS ENDURCIS",
             "styleDescription": "UNE NOUVELLE GÉNÉRATION DE METROIDVANIA QUI RENDR LA CHAIR DE VOS POUCES À VIF",
-            "presskit": "Kit de presse",
+            "presskit": "KIT DE PRESSE",
 
             "descriptionTitle": "Description",
             "description1": "Joshua's Legs est un jeu étrange à propos d'un arachnide qui espère retrouver sa collection de pattes prosthétiques depuis longtemps perdues. Aventurez-vous dans un monde qui révèlera ses secrets seulement aux vrais grimpeurs endurcis. Suivez le chemin indiqué ou explorez la tanière pour y trouver toutes les prothèses de Joshua. Celles-ci lui permettront de sauter, s'agripper et lancer des toiles d’araignées pour se balancer ou éviter la chute libre.",
