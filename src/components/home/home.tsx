@@ -16,7 +16,6 @@ import { useTranslation } from "react-i18next";
 import { Fade } from "react-awesome-reveal";
 import { GameplayItem } from "../gameplay-item/gameplay-item";
 import { Link } from "react-router-dom";
-import { EmailForm } from "../email-form/email-form";
 
 
 export function Home() {
@@ -34,11 +33,8 @@ export function Home() {
 
                 <div className="text-center white pixelatus text-base md:text-3xl mt-5 underline">
                     <Link to="/press">{t("presskit")}</Link>
-                    <div className="flex flex-row justify-center items-center mt-4">
-                        <EmailForm />
-                    </div>
                 </div>
-                <div className='flex flex-col content-center items-center'>
+                <div className='flex flex-col mt-6 content-center items-center'>
                     <div className="text-center text-width w-full px-4">
                         <iframe title="itch" frameBorder="0" src="https://itch.io/embed/1547638" width="100%" height="167"><a href="https://petitlegume.itch.io/joshuas-legs">Joshua's Legs by PetitLegume</a></iframe>
                     </div>
@@ -49,6 +45,8 @@ export function Home() {
                     <a className='text-xl md:text-2xl' href='https://t.me/JoshuasLegsGame'>TELEGRAM</a>
                     <div className='white-square md:m-1'></div>
                     <a className='text-xl md:text-2xl' href='https://www.reddit.com/r/joshuaslegs_game/'>REDDIT</a>
+                    <div className='white-square md:m-1'></div>
+                    <a className='text-xl md:text-2xl' href='https://forms.gle/xzAJi3DG1LCyGDeg9'>NEWSLETTER</a>
                 </div>
                 <div className="flex flex-row justify-center items-center mt-3">
                     <span className='text-base md:text-3xl red-light pixelatus' >{t("A GAME BY:")}</span>
