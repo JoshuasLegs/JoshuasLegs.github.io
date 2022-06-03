@@ -36,7 +36,7 @@ export function Home() {
                     </div>
                 </div>
                 <div className="flex flex-row platforms justify-center items-center mb-4 mt-12 white">
-                    <a className='text-xl md:text-2xl' href="https://discord.gg/aDBtejtEjS">DISCORD</a>
+                    <a className='text-xl md:text-2xl' href="https://discord.gg/QzNGUzEEEW">DISCORD</a>
                     <div className='white-square md:m-1'></div>
                     <a className='text-xl md:text-2xl' href='https://t.me/JoshuasLegsGame'>TELEGRAM</a>
                     <div className='white-square md:m-1'></div>
