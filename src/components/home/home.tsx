@@ -58,6 +58,13 @@ export function Home() {
                 <div className='mt-24 flex flex-col content-center items-center'>
                     {paths.map((p, i) => <GameplayItem key={p[0]} className='text-width mb-10' img={p[0]} video={p[1]}></GameplayItem>)}
                 </div>
+                <div className='mb-24 flex flex-col content-center items-center'>
+                    <div className="text-wider w-full">
+                        <div className="video-container">
+                            <iframe className="gameplay" width="800" height="450" src="https://www.youtube.com/embed/9ZByFGICgSg" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        </div>
+                    </div>
+                </div>
                 <Fade delay={100} duration={1500} className='text-center pixelatus text-2xl md:text-4xl red-light m-5 mt-0 flex justify-center text-center'>
                     <span className='text-width uppercase'>{t("gameplayTitle")}</span>
                 </Fade>
