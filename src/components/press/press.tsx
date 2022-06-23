@@ -126,6 +126,13 @@ export function Press() {
                     <h2 className="text-4xl mb-2">{t("articles")}</h2>
                     <p className="text-2xl mt-4 underline"><a href="https://medium.com/@petitlegume/the-quirks-of-creating-an-indie-game-with-a-one-man-army-and-how-its-possible-2eca32f5fd23">The quirks of creating an indie game with a one man army (and how it’s possible)</a></p>
                 </div>
+
+                <div className="flex flex-col w-full mt-12">
+                    <h2 className="text-4xl mb-2">{t("fonts")}</h2>
+                    <p className="text-2xl mt-4 underline"><a href="https://www.dafont.com/pixel-bug.font">PIXEL BUG</a></p>
+                    <p className="text-2xl mt-4 underline"><a href="https://www.dafont.com/pixelatus.font">PIXELATUS</a></p>
+                    <p className="text-2xl mt-4 underline"><a href="https://www.dafont.com/a-dripping-marker.font">A DRIPPING MARKER</a></p>
+                </div>
                 
                 <div className="flex flex-col w-full mt-12">
                     <h2 className="text-4xl mb-2">{t("credits")}</h2>
