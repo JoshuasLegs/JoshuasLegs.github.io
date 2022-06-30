@@ -1,7 +1,21 @@
+@import "./../../colors.scss";
+
 .press-container {
     max-width: 800px;
 
     img {
         border: 1px dashed white;
+    }
+
+    .primary-color {
+        color: $red-color;
+    }
+
+    .primary-color-shadow {
+        color: $red-color-shadow;
+    }
+
+    .secondary-color {
+        color: $secondary-color;
     }
 }

@@ -133,7 +133,14 @@ export function Press() {
                     <p className="text-2xl mt-4 underline"><a href="https://www.dafont.com/pixelatus.font">PIXELATUS</a></p>
                     <p className="text-2xl mt-4 underline"><a href="https://www.dafont.com/a-dripping-marker.font">A DRIPPING MARKER</a></p>
                 </div>
-                
+
+                <div className="flex flex-col w-full mt-12">
+                    <h2 className="text-4xl mb-2">{t("palette")}</h2>
+                    <p className="text-2xl mt-4">{t("primary")} <span className="primary-color">#92252b</span></p>
+                    <p className="text-2xl mt-4">{t("primary2")} <span className="primary-color-shadow">#FF0000</span></p>
+                    <p className="text-2xl mt-4">{t("secondary")}<span className="secondary-color"> #9A36A1</span></p>
+                </div>
+
                 <div className="flex flex-col w-full mt-12">
                     <h2 className="text-4xl mb-2">{t("credits")}</h2>
                     <p className="text-2xl mt-4">{t("credits1")}</p>

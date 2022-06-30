@@ -22,7 +22,7 @@
   .title {
     color: $red-color;
     font-family: Pixelbug;
-    text-shadow: 2px 2px #FF0000;
+    text-shadow: 2px 2px $red-color-shadow;
     line-height: 80%;
 
     &.first {

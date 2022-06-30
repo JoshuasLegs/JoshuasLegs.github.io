@@ -36,7 +36,11 @@ const resources = {
             "credits1": "Game by Francis Côté-Tremblay",
             "credits2": "Music by Danielle Tremblay",
             "contact": "Contact",
-            "fonts": "Fonts"
+            "fonts": "Fonts",
+            "palette": "Palette",
+            "primary": "Primary: ",
+            "primary2": "Primary shadow: ",
+            "secondary": "Secondary: "
         }
     },
     fr: {
@@ -73,7 +77,11 @@ const resources = {
             "credits1": "Jeu par Francis Côté-Tremblay",
             "credits2": "Musique par Danielle Tremblay",
             "contact": "Contact",
-            "fonts": "Police de charactères"
+            "fonts": "Police de charactères",
+            "palette": "Palette",
+            "primary": "Primaire: ",
+            "primary2": "Ombre primaire: ",
+            "secondary": "Secondary: "
         }
     }
 };
