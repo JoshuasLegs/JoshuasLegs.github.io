@@ -17,7 +17,9 @@ import video2 from "../../assets/gameplay2.mp4";
 import video2thumbnail from "../../assets/gameplay2.png";
 import video3 from "../../assets/gameplay3.mp4";
 import video3thumbnail from "../../assets/gameplay3.png";
+import hinotext from "../../assets/press/mp4/hi_notext.mp4";
 import jhang from "../../assets/joshua.gif";
+import drophi from "../../assets/press/gifs/drophi.gif";
 import { useTranslation } from "react-i18next";
 import { useCallback } from "react";
 import { Link } from "react-router-dom";
@@ -112,6 +114,9 @@ export function Press() {
                     <div className="flex-col">
                         <img className="mt-2" src={jhang} alt="joshua hanging"></img>
                     </div>
+                    <div className="flex-col">
+                        <img className="mt-2" src={drophi} alt="joshua hi"></img>
+                    </div>
                 </div>
 
                 <div className="flex flex-col w-full mt-12">
@@ -120,6 +125,9 @@ export function Press() {
                         <source src={trailer} />
                     </video>
                     {paths.map((p, i) => <GameplayItem key={p[0]} className='mt-2 w-full' img={p[0]} video={p[1]}></GameplayItem>)}
+                    <video className='gameplay mt-2' width={1280} height={720} controls preload="none">
+                        <source src={hinotext} />
+                    </video>
                 </div>
 
                 <div className="flex flex-col w-full mt-12">
