@@ -7,7 +7,6 @@ import "./home.scss";
 import { useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import { Fade } from "react-awesome-reveal";
-import { GameplayItem } from "../gameplay-item/gameplay-item";
 import { Link } from "react-router-dom";
 
 

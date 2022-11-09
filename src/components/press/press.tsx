@@ -12,12 +12,12 @@ import screenshot5 from "../../assets/press/Screenshots/s5.png";
 import screenshot6 from "../../assets/press/Screenshots/s6.png";
 import trailer from "../../assets/press/trailer.mp4";
 import hinotext from "../../assets/press/mp4/hi_notext.mp4";
+import hinotextposter from "../../assets/press/mp4/hi_notext.png";
 import jhang from "../../assets/joshua.gif";
 import drophi from "../../assets/press/gifs/drophi.gif";
 import { useTranslation } from "react-i18next";
 import { useCallback } from "react";
 import { Link } from "react-router-dom";
-import { GameplayItem } from "../gameplay-item/gameplay-item";
 
 export function Press() {
 
@@ -97,6 +97,11 @@ export function Press() {
                     <div className="video">
                         <video poster={title} className='gameplay mt-2' width={1280} height={720} controls preload="none">
                             <source src={trailer} />
+                        </video>
+                    </div>
+                    <div className="video mt-4">
+                        <video poster={hinotextposter} className='gameplay 'width={1280} height={720} controls preload="none">
+                            <source src={hinotext} />
                         </video>
                     </div>
                 </div>
