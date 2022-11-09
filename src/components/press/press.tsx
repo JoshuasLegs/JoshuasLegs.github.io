@@ -6,17 +6,11 @@ import llogo from "../../assets/press/library_logo/library_logo.png";
 import lhero from "../../assets/press/library_hero/library_hero.png";
 import screenshot1 from "../../assets/press/Screenshots/s1.png";
 import screenshot2 from "../../assets/press/Screenshots/s2.png";
-import screenshot3 from "../../assets/press/Screenshots/s3.png";
-import screenshot4 from "../../assets/press/Screenshots/s4.png";
+import screenshot3 from "../../assets/press/Screenshots/s3.jpg";
+import screenshot4 from "../../assets/press/Screenshots/s4.jpg";
 import screenshot5 from "../../assets/press/Screenshots/s5.png";
 import screenshot6 from "../../assets/press/Screenshots/s6.png";
 import trailer from "../../assets/press/trailer.mp4";
-import video1 from "../../assets/gameplay1.mp4";
-import video1thumbnail from "../../assets/gameplay1.png";
-import video2 from "../../assets/gameplay2.mp4";
-import video2thumbnail from "../../assets/gameplay2.png";
-import video3 from "../../assets/gameplay3.mp4";
-import video3thumbnail from "../../assets/gameplay3.png";
 import hinotext from "../../assets/press/mp4/hi_notext.mp4";
 import jhang from "../../assets/joshua.gif";
 import drophi from "../../assets/press/gifs/drophi.gif";
@@ -28,7 +22,6 @@ import { GameplayItem } from "../gameplay-item/gameplay-item";
 export function Press() {
 
     const { t, i18n } = useTranslation();
-    const paths = [[video1thumbnail, video1], [video2thumbnail, video2], [video3thumbnail, video3]]
 
     const onLangChange = useCallback((l: string) => {
         i18n.changeLanguage(l);
@@ -50,26 +43,6 @@ export function Press() {
                     <p className="text-2xl mt-4">{t("description2")}</p>
                 </div>
 
-                <div className="flex flex-col w-full mt-12">
-                    <h2 className="text-4xl">{t("featuresTitle")}</h2>
-                    <ul>
-                        <li>
-                            <p className="text-2xl mt-4">{t("feature1")}</p>
-                        </li>
-                        <li>
-                            <p className="text-2xl mt-4">{t("feature2")}</p>
-                        </li>
-                        <li>
-                            <p className="text-2xl mt-4">{t("feature3")}</p>
-                        </li>
-                        <li>
-                            <p className="text-2xl mt-4">{t("feature4")}</p>
-                        </li>
-                        <li>
-                            <p className="text-2xl mt-4">{t("feature5")}</p>
-                        </li>
-                    </ul>
-                </div>
 
                 <div className="flex flex-col w-full mt-12">
                     <h2 className="text-4xl">{t("historyTitle")}</h2>
@@ -121,13 +94,11 @@ export function Press() {
 
                 <div className="flex flex-col w-full mt-12">
                     <h2 className="text-4xl mb-4">{t("videos")}</h2>
-                    <video poster={title} className='gameplay mt-2' width={1280} height={720} controls preload="none">
-                        <source src={trailer} />
-                    </video>
-                    {paths.map((p, i) => <GameplayItem key={p[0]} className='mt-2 w-full' img={p[0]} video={p[1]}></GameplayItem>)}
-                    <video className='gameplay mt-2' width={1280} height={720} controls preload="none">
-                        <source src={hinotext} />
-                    </video>
+                    <div className="video">
+                        <video poster={title} className='gameplay mt-2' width={1280} height={720} controls preload="none">
+                            <source src={trailer} />
+                        </video>
+                    </div>
                 </div>
 
                 <div className="flex flex-col w-full mt-12">

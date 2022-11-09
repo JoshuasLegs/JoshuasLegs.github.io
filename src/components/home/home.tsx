@@ -1,10 +1,3 @@
-
-import gameplay1png from "./../../assets/gameplay1.png";
-import gameplay1 from "./../../assets/gameplay1.mp4";
-import gameplay2png from "./../../assets/gameplay2.png";
-import gameplay2 from "./../../assets/gameplay2.mp4";
-import gameplay3png from "./../../assets/gameplay3.png";
-import gameplay3 from "./../../assets/gameplay3.mp4";
 import joshua from './../../assets/joshua.gif';
 import hang from './../../assets/hang.mp4';
 import rock from './../../assets/rock.png';
@@ -21,7 +14,6 @@ import { Link } from "react-router-dom";
 export function Home() {
 
     const { t, i18n } = useTranslation();
-    const paths = [[gameplay3png, gameplay3], [gameplay2png, gameplay2], [gameplay1png, gameplay1]]
 
     const onLangChange = useCallback((l: string) => {
         i18n.changeLanguage(l);
@@ -30,22 +22,6 @@ export function Home() {
     return (
         <div className="App h-full" >
             <div className="section flex-col flex section2 mt-5">
-                <div className='flex flex-col mt-6 content-center items-center'>
-                    <div className="text-center text-width w-full px-4">
-                        <iframe title="itch" frameBorder="0" src="https://itch.io/embed/1547638" width="100%" height="167"><a href="https://petitlegume.itch.io/joshuas-legs">Joshua's Legs by PetitLegume</a></iframe>
-                    </div>
-                </div>
-                <div className="flex flex-row platforms justify-center items-center mb-4 mt-12 white">
-                    <a className='text-xl md:text-2xl' href="https://discord.gg/QzNGUzEEEW">DISCORD</a>
-                    <div className='white-square md:m-1'></div>
-                    <a className='text-xl md:text-2xl' href='https://t.me/JoshuasLegsGame'>TELEGRAM</a>
-                    <div className='white-square md:m-1'></div>
-                    <a className='text-xl md:text-2xl' href='https://www.reddit.com/r/joshuaslegs_game/'>REDDIT</a>
-                    <div className='white-square md:m-1'></div>
-                    <Link className='text-xl md:text-2xl' to="/press">{t("presskit")}</Link>
-                    <div className='white-square md:m-1'></div>
-                    <a className='text-xl md:text-2xl' href='https://forms.gle/xzAJi3DG1LCyGDeg9'>CLOSED BETA ACCESS</a>
-                </div>
                 <div className="flex flex-row justify-center items-center mt-3">
                     <span className='text-base md:text-3xl red-light pixelatus' >{t("A GAME BY:")}</span>
                     <div>
@@ -55,13 +31,10 @@ export function Home() {
                 <Fade delay={100} duration={1500} className='m-5 flex justify-center pixelatus text-2xl md:text-4xl white'>
                     <p className="text-width text-center uppercase">{t("styleDescription")}</p>
                 </Fade>
-                <div className='mt-24 flex flex-col content-center items-center'>
-                    {paths.map((p, i) => <GameplayItem key={p[0]} className='text-width mb-10' img={p[0]} video={p[1]}></GameplayItem>)}
-                </div>
                 <div className='mb-24 flex flex-col content-center items-center'>
                     <div className="text-wider w-full">
-                        <div className="video-container">
-                            <iframe className="gameplay" width="800" height="450" src="https://www.youtube.com/embed/9ZByFGICgSg" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <div className="video-container video">
+                            <iframe className="gameplay" width="800" height="450" src="https://www.youtube.com/embed/9dUyBr6JMvY" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -116,18 +89,14 @@ export function Home() {
                     <div className='mb-2'>
                         <p className="text-center pixelatus text-xl md:text-2xl white uppercase">{t("comingsoon")}</p>
                     </div>
-                    <div className="flex flex-row platforms justify-center items-center mb-4 white">
-                        <a className='text-xl md:text-2xl' href="https://store.steampowered.com/app/1934330/Joshuas_Legs">PC</a>
+                    <div className="flex flex-row platforms justify-center items-center mb-4 mt-12 white">
+                        <a className='text-xl md:text-2xl' href="https://store.steampowered.com/app/1934330/Joshuas_Legs/">STEAM</a>
                         <div className='white-square md:m-1'></div>
-                        <a className='text-xl md:text-2xl disabled' href='/'>SWITCH</a>
+                        <a className='text-xl md:text-2xl' href="https://discord.gg/QzNGUzEEEW">DISCORD</a>
                         <div className='white-square md:m-1'></div>
-                        <a className='text-xl md:text-2xl disabled' href='/'>PS4</a>
-                        <div className='white-square md:m-1 disabled'></div>
-                        <a className='text-xl md:text-2xl disabled' href='/'>IOS</a>
+                        <Link className='text-xl md:text-2xl' to="/press">{t("presskit")}</Link>
                         <div className='white-square md:m-1'></div>
-                        <a className='text-xl md:text-2xl disabled' href="/">ANDROID</a>
-                        <div className='white-square md:m-1'></div>
-                        <a className='text-xl md:text-2xl' href='https://danielletremblay.bandcamp.com'>OST</a>
+                        <a className='text-xl md:text-2xl' href='https://forms.gle/xzAJi3DG1LCyGDeg9'>{t("mailinglist")}</a>
                     </div>
                     <div className='flex flex-row justify-center text-2xl red-light pixelatus mb-4'>
                         <button onClick={() => onLangChange("en")}>EN</button>

@@ -1,0 +1,10 @@
+@import "./colors.scss";
+
+.video {
+    border: 3px solid $red-color;
+    transition: border ease 0.2s;
+
+    &:hover {
+        border: 3px solid $white;
+    }
+}
