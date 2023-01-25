@@ -33,7 +33,7 @@ export function Home() {
                 <div className='mb-24 flex flex-col content-center items-center'>
                     <div className="text-wider w-full">
                         <div className="video-container video">
-                            <iframe className="gameplay" width="800" height="450" src="https://www.youtube.com/embed/9dUyBr6JMvY" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe className="gameplay" width="800" height="450" src="https://www.youtube.com/embed/xXww_-4IwqY" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     </div>
                 </div>
