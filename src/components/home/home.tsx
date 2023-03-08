@@ -85,17 +85,12 @@ export function Home() {
                         <h1 className="title second text-center">JOSHUAS</h1>
                         <h1 className="title first text-center">LEGS</h1>
                     </div>
-                    <div className='mb-2'>
-                        <p className="text-center pixelatus text-xl md:text-2xl white uppercase">{t("comingsoon")}</p>
-                    </div>
                     <div className="flex flex-row platforms justify-center items-center mb-4 mt-12 white">
                         <a className='text-xl md:text-2xl' href="https://store.steampowered.com/app/1934330/Joshuas_Legs/">STEAM</a>
                         <div className='white-square md:m-1'></div>
                         <a className='text-xl md:text-2xl' href="https://discord.gg/QzNGUzEEEW">DISCORD</a>
                         <div className='white-square md:m-1'></div>
                         <Link className='text-xl md:text-2xl' to="/press">{t("presskit")}</Link>
-                        <div className='white-square md:m-1'></div>
-                        <a className='text-xl md:text-2xl' href='https://forms.gle/xzAJi3DG1LCyGDeg9'>{t("mailinglist")}</a>
                     </div>
                     <div className='flex flex-row justify-center text-2xl red-light pixelatus mb-4'>
                         <button onClick={() => onLangChange("en")}>EN</button>

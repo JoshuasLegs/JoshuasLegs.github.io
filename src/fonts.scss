@@ -10,6 +10,16 @@
     src: url("assets/pixelatus.ttf") format("opentype");
 }
 
+@font-face {
+    font-family: Odin;
+    src: url("assets/odin_rounded.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ADrippingMarker;
+    src: url("assets/adrip1.ttf") format("opentype");
+}
+
 .pixelbug {
     font-family: Pixelbug;
 }
@@ -17,6 +27,15 @@
 .pixelatus {
     font-family: Pixelatus;
 }
+
+.dripping {
+    font-family: ADrippingMarker;
+}
+
+.odin {
+    font-family: Odin;
+}
+
 
 .red {
     color: $red-color;
